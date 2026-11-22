@@ -11,10 +11,24 @@
 
 ## Загрузка стенда в Killercoda Ubuntu Playground
 
-Три команды (выполнять по очереди):
+Выполняйте команды по одной, когда видна строка ввода `root@ubuntu:~$`.
 
-    cd ~ && curl -fsSL -o linux-qa-log-lab.tar.gz https://raw.githubusercontent.com/GITHUB_LOGIN/qa-linux-lab/main/linux-qa-log-lab.tar.gz
-    tar -xzf linux-qa-log-lab.tar.gz && cd linux-qa-log-lab
+Скачать архив (при успехе ничего не выводит):
+
+    curl -fsSL -O https://raw.githubusercontent.com/MaryZakh/qa-linux-lab/main/linux-qa-log-lab.tar.gz
+
+Распаковать (при успехе ничего не выводит):
+
+    tar -xzf linux-qa-log-lab.tar.gz
+
+Перейти в папку стенда:
+
+    cd linux-qa-log-lab
+
+Проверить стенд:
+
     bash tools/check-lab.sh
 
 Последняя строка проверки: `ИТОГ: стенд в порядке.`
+
+Если при вставке в начале строки появилось `^[[200~` или в конце `~` — не нажимайте Enter, нажмите Ctrl+C и вставьте команду снова (или наберите вручную).
