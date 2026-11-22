@@ -1,6 +1,6 @@
 # qa-linux-lab
 
-Учебный стенд для урока **Lesson 7. Linux for QA** (курс Advanced Manual QA).
+Учебный стенд для урока **Linux for QA** (курс Advanced Manual QA).
 
 Все логи вымышленные: сервис booking-api, пользователи, IP-адреса и email придуманы для занятия.
 
